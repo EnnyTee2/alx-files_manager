@@ -10,7 +10,7 @@ router.get('/status', AppController.getStatus);
 
 router.get('/stats', AppController.getStats);
 
-//router.post('/users', UsersController.postNew);
+router.post('/users', UsersController.postNew);
 
 r//outer.get('/connect', AuthController.getConnect);
 
